@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root 'demo#index'
   get 'demo/create-user' => 'demo#createUser'
   get 'demo/create-subjects' => 'demo#createSubjects'
