@@ -1,4 +1,6 @@
 class Subject < ActiveRecord::Base
+  has_one :page
+
   scope :visible ,lambda {where(:visble=>true)}
   scope :invisible ,lambda {where(:visble=>false)}
   scope :new_first ,lambda {order('created_at DESC')}
@@ -15,4 +17,8 @@ class Subject < ActiveRecord::Base
     where("name LIKE :p1 OR name LIKE :p2 OR name LIKE :p3",
           {:p1 => "%#{query}%", :p2 => "%#{query2}%",:p3 => "%#{query3}%",})
   }
+
+  def find_first_page(id)
+    Page.find_by_subject_id(id)
+  end
 end
