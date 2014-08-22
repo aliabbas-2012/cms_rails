@@ -21,7 +21,6 @@ class DemoController < ApplicationController
   def createSubjects
     @subject = {}
     last = Subject.last
-    puts 'd'
 
     start = last.nil?? 1:last.id
     puts start
