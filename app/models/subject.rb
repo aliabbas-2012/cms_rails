@@ -1,6 +1,6 @@
 class Subject < ActiveRecord::Base
   has_one :page
-
+  validates :name, uniqueness: true
   scope :visible ,lambda {where(:visble=>true)}
   scope :invisible ,lambda {where(:visble=>false)}
   scope :new_first ,lambda {order('created_at DESC')}
