@@ -5,10 +5,18 @@ class SubjectsController < ApplicationController
   # GET /subjects
   # GET /subjects.json
   def index
+
     if params[:page].nil?
       params[:page] = 1
     end
-    @subjects = Subject.paginate(:per_page => 10, :page => params[:page])
+    sort = 'id ASC'
+    sort = case params['sort']
+             when "name"  then "name"
+             when "name_reverse"  then "name DESC"
+             when "id"  then "id"
+             when "id_reverse"  then "id DESC"
+           end
+    @subjects = Subject.paginate(:per_page => 10, :page => params[:page]).order(sort)
   end
 
   # GET /subjects/1
