@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140820074339) do
+ActiveRecord::Schema.define(version: 20140825053956) do
 
   create_table "pages", force: true do |t|
     t.integer  "subject_id"
@@ -26,6 +26,18 @@ ActiveRecord::Schema.define(version: 20140820074339) do
 
   add_index "pages", ["permalink"], name: "index_pages_on_permalink", using: :btree
   add_index "pages", ["subject_id"], name: "index_pages_on_subject_id", using: :btree
+
+  create_table "posts", force: true do |t|
+    t.string   "name",       limit: 50,                null: false
+    t.text     "body",                                 null: false
+    t.integer  "position"
+    t.string   "permalink",  limit: 50,                null: false
+    t.boolean  "is_visible",            default: true
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "posts", ["permalink"], name: "index_posts_on_permalink", using: :btree
 
   create_table "sections", force: true do |t|
     t.integer  "page_id"
