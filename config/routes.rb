@@ -3,10 +3,13 @@ Rails.application.routes.draw do
   resources :posts
   resources :pages
 
+
   root 'demo#index'
-  get 'demo/create-user' => 'demo#createUser'
-  get 'demo/create-subjects' => 'demo#createSubjects'
-  match ':controller(/:action(:/id))' ,:via => :get
+  get 'demo/create-user' => 'demo#create_user'
+  get 'demo/create-subjects' => 'demo#create_subjects'
+  match ':controller(/:action)' ,:via => [:get, :post]
+  match ':controller(/:action(:/id))' ,:via => [:get, :post]
+
 
 
 

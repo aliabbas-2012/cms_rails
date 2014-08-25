@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
   before_action :set_page, only: [:show, :edit, :update, :destroy]
+  before_action :confirmed_login
+  layout 'admin'
 
   # GET /pages
   # GET /pages.json
