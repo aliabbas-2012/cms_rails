@@ -1,5 +1,6 @@
 class Subject < ActiveRecord::Base
   has_one :page
+  attr_reader :visibility
   validates :name, uniqueness: true
   scope :visible ,lambda {where(:visble=>true)}
   scope :invisible ,lambda {where(:visble=>false)}
@@ -20,5 +21,13 @@ class Subject < ActiveRecord::Base
 
   def find_first_page(id)
     Page.find_by_subject_id(id)
+  end
+
+  def visibility
+    if self.is_visible
+      return 'Visible'
+    else
+      return 'In-Visible'
+    end
   end
 end
