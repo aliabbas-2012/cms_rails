@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 
 #for physical foreign key
 gem 'foreigner'
+
+## Gemfile for Rails 3, Rails 4, Sinatra, and Merb
+gem 'will_paginate', '~> 3.0'

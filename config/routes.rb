@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   resources :posts
   resources :pages
+  resources :subjects
 
 
   root 'demo#index'
