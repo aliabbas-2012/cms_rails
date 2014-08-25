@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :posts
+
   root 'demo#index'
   get 'demo/create-user' => 'demo#createUser'
   get 'demo/create-subjects' => 'demo#createSubjects'
