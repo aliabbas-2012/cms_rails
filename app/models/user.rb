@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
-
-
+  attr_reader :name
+  # after_find :after_find
   has_secure_password
 
   EMAIL_REGEX = /\A[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}\Z/i
@@ -48,4 +48,11 @@ class User < ActiveRecord::Base
       errors[:base] << "No new users on Saturdays."
     end
   end
+
+  def name
+
+    return [self.first_name,self.last_name].join(' ')
+  end
+
+
 end
