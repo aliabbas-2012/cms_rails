@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   resources :posts
+  resources :pages
 
   root 'demo#index'
   get 'demo/create-user' => 'demo#createUser'
