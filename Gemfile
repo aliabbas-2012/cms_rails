@@ -29,6 +29,13 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
  gem 'bcrypt', '~> 3.1.7'
 
+#for better errors
+gem 'better_errors', '~> 2.0.0'
+gem "binding_of_caller"
+
+gem 'simple_form', '~> 3.0.2'
+gem 'cocoon', '~> 1.2.6'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
