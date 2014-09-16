@@ -1,0 +1,22 @@
+<div class="nested-fields">
+  <div class="field">
+    <%= f.input :name %>
+  </div>
+  <div class="field">
+
+    <%= f.input :subject_id, collection: Subject.all.collect {|a| [a.name, a.id]}  %>
+  </div>
+  <div class="field">
+    <%= f.input :permalink %>
+
+  </div>
+  <div class="field">
+    <%= f.input :body, as: :text, input_html: { rows: 3, cols: 25} %>
+
+  </div>
+
+  <div class="field">
+    <%= f.input :is_visible, as: :boolean %>
+  </div>
+  <%= link_to_remove_association 'remove', f %>
+</div>

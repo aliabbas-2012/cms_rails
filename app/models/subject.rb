@@ -1,6 +1,8 @@
 class Subject < ActiveRecord::Base
-  has_one :page
+  has_many :pages
   attr_reader :visibility
+  accepts_nested_attributes_for :pages, :reject_if => :all_blank, :allow_destroy => true
+
   validates :name, uniqueness: true
   scope :visible ,lambda {where(:visble=>true)}
   scope :invisible ,lambda {where(:visble=>false)}

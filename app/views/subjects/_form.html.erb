@@ -1,4 +1,4 @@
-<%= form_for(@subject) do |f| %>
+<%= simple_form_for(@subject) do |f| %>
     <% if @subject.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@subject.errors.count, "error") %> prohibited this subject from being saved:</h2>
@@ -11,24 +11,23 @@
         </div>
     <% end %>
 
-    <div class="field">
-      <%= f.label :name %>
-      <br/>
-      <%= f.text_field :name %>
-    </div>
+
+    <%= f.input :name %>
+    <%= f.input :description, as: :text, input_html: { rows: 3, cols: 25} %>
 
 
-    <div class="field">
-      <%= f.label :description %>
-      <br/>
-      <%= f.text_area :description %>
+    <%= f.input :is_visible, as: :boolean %>
+
+    <h3>Pages</h3>
+    <div id="pages">
+      <%= f.simple_fields_for :pages do |e| %>
+          <%= render 'page_fields',f: e %>
+      <% end %>
+      <div class="links">
+        <%= link_to_add_association 'add page', f, :pages %>
+      </div>
     </div>
 
-    <div class="field">
-      <%= f.label :is_visible %>
-      <br/>
-      <%= f.check_box :is_visible %>
-    </div>
 
     <div class="actions">
       <%= f.submit %>
