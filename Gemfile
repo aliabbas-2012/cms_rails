@@ -51,3 +51,8 @@ gem 'foreigner'
 
 ## Gemfile for Rails 3, Rails 4, Sinatra, and Merb
 gem 'will_paginate', '~> 3.0'
+
+#for bootstrap layout
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"

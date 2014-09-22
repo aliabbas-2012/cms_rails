@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :test_boot_straps
+
   resources :posts
   resources :pages
   resources :subjects

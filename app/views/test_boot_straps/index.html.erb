@@ -1,0 +1,38 @@
+<%- model_class = TestBootStrap -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:title) %></th>
+      <th><%= model_class.human_attribute_name(:description) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @test_boot_straps.each do |test_boot_strap| %>
+      <tr>
+        <td><%= link_to test_boot_strap.id, test_boot_strap_path(test_boot_strap) %></td>
+        <td><%= test_boot_strap.title %></td>
+        <td><%= test_boot_strap.description %></td>
+        <td><%=l test_boot_strap.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_test_boot_strap_path(test_boot_strap), :class => 'btn btn-default btn-xs' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      test_boot_strap_path(test_boot_strap),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-xs btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_test_boot_strap_path,
+            :class => 'btn btn-primary' %>

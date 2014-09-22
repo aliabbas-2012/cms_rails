@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140825072844) do
+ActiveRecord::Schema.define(version: 20140922133347) do
 
   create_table "pages", force: true do |t|
     t.integer  "subject_id"
@@ -61,10 +61,18 @@ ActiveRecord::Schema.define(version: 20140825072844) do
     t.datetime "updated_at"
   end
 
+  create_table "test_boot_straps", force: true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "users", force: true do |t|
     t.string   "first_name",      limit: 25
     t.string   "last_name",       limit: 25
     t.string   "email",           limit: 25, default: "",     null: false
+    t.string   "username",        limit: 40,                  null: false
     t.string   "password_digest"
     t.string   "gender",          limit: 10, default: "Male", null: false
     t.datetime "created_at"
