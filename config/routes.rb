@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
 
-  resources :test_boot_straps
+  #resources :test_boot_straps
 
   resources :posts
   resources :pages
   resources :subjects
-
+  resources "test-boot-straps", :as => :test_boot_straps, :controller => :test_boot_straps
 
   root 'demo#index'
   get 'demo/create-user' => 'demo#create_user'
