@@ -36,3 +36,6 @@
 <%= link_to t('test_boot_straps.new', :default => t("helpers.links.new")),
             new_test_boot_strap_path,
             :class => 'btn btn-primary' %>
+<div class="col-lg-12">
+  <%= will_paginate @test_boot_straps,renderer: BootstrapPagination::Rails %>
+</div>

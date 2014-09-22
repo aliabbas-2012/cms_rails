@@ -50,7 +50,7 @@ gem 'cocoon', '~> 1.2.6'
 gem 'foreigner'
 
 ## Gemfile for Rails 3, Rails 4, Sinatra, and Merb
-gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 #for bootstrap layout
 gem "therubyracer"

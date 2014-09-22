@@ -5,7 +5,11 @@ class TestBootStrapsController < ApplicationController
   # GET /test_boot_straps
   # GET /test_boot_straps.json
   def index
-    @test_boot_straps = TestBootStrap.all
+    if params[:page].nil?
+      params[:page] = 1
+    end
+
+    @test_boot_straps = TestBootStrap.paginate(:per_page => 10, :page => params[:page])
   end
 
   # GET /test_boot_straps/1
