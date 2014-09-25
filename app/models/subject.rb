@@ -4,6 +4,7 @@ class Subject < ActiveRecord::Base
   accepts_nested_attributes_for :pages, :reject_if => :all_blank, :allow_destroy => true
 
   validates :name, uniqueness: true
+  validates :name, presence: true
   scope :visible ,lambda {where(:visble=>true)}
   scope :invisible ,lambda {where(:visble=>false)}
   scope :new_first ,lambda {order('created_at DESC')}
