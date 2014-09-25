@@ -1,7 +1,7 @@
 class Page < ActiveRecord::Base
   belongs_to :subject
-  validates :name, uniqueness: true
-
+  validates :name, uniqueness:true
+  validates :name, presence:true
   HUMANIZED_ATTRIBUTES = {
       :name => 'Name',:subject_id => 'Subject',:position => 'Order',:is_visible=>'Visibility',
   }
