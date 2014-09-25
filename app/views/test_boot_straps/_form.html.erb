@@ -3,8 +3,10 @@
 
   <%= f.input :description %>
 
-
-  <%= f.button :submit, :class => 'btn-primary' %>
-  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+  <div class="control-group col-lg-6" style="margin-top: 10px">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 test_boot_straps_path, :class => 'btn btn-default' %>
+  </div>
+
 <% end %>

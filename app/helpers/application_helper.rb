@@ -24,4 +24,11 @@ module ApplicationHelper
         flash_type.to_s
     end
   end
+
+  def menu_active controller_name
+    if controller.controller_name ==controller_name
+      "active"
+    end
+
+  end
 end
