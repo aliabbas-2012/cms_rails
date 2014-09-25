@@ -59,9 +59,17 @@
 
 
 <div class="container">
+
   <div class="row">
     <div class="col-lg-9">
-
+      <% flash.each do |type, msg| %>
+          <% if msg.is_a?(String) %>
+              <div class="alert alert-<%= bootstrap_class_for type %>">
+                <a class="close" data-dismiss="alert">&#215;</a>
+                <%= content_tag :div, msg, :id => "flash_#{type}" %>
+              </div>
+          <% end %>
+      <% end %>
       <%= yield %>
     </div>
 
