@@ -1,8 +1,8 @@
 <%= simple_form_for @test_boot_strap, :html => { :class => 'form-horizontal' } do |f| %>
   <%= f.input :title %>
-  <%= error_span(@test_boot_strap[:title]) %>
+
   <%= f.input :description %>
-  <%= error_span(@test_boot_strap[:description]) %>
+
 
   <%= f.button :submit, :class => 'btn-primary' %>
   <%= link_to t('.cancel', :default => t("helpers.links.cancel")),

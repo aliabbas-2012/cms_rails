@@ -51,26 +51,27 @@
         <li><%= link_to "Home",:root  %></li>
         <li><%= link_to "Subjects", :subjects  %></li>
         <li><%= link_to "Posts", :posts  %></li>
-        <li><%= link_to "BootStrap", 'test-boot-strap'  %></li>
+        <li><%= link_to "BootStrap", :test_boot_straps  %></li>
       </ul>
     </div>
   </div>
 </div>
 
+
 <div class="container">
   <div class="row">
     <div class="col-lg-9">
-      <%= bootstrap_flash %>
+
       <%= yield %>
     </div>
-    <%= controller.controller_name %>
+
     <div class="col-lg-3">
       <div class="well sidebar-nav">
         <h3>Sidebar</h3>
         <ul class="nav nav-list">
           <li class="nav-header">Sidebar</li>
-          <li><%= link_to "Create","new_#{params[:controller]}_path"  %></li>
-          <li><%= link_to "List", "/path2"  %></li>
+          <li><%= link_to "Create",url_for(controller:controller.controller_name,action:'new')  %></li>
+          <li><%= link_to "List", url_for(controller:controller.controller_name,action:'index')   %></li>
 
         </ul>
       </div><!--/.well -->
