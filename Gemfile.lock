@@ -191,6 +191,7 @@ DEPENDENCIES
   foreigner
   jbuilder (~> 2.0)
   jquery-rails
+  kaminari
   mysql2
   rails (= 4.1.4)
   sass-rails (~> 4.0.3)
