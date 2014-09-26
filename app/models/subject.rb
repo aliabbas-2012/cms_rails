@@ -10,7 +10,7 @@ class Subject < ActiveRecord::Base
   scope :new_first ,lambda {order('created_at DESC')}
   scope :sorted ,lambda {order('is_positon ASC')}
   scope :last_record ,lambda {order('created_at DESC').limit(1)}
-  scope :search ,lambda { |query|
+  scope :search_custom ,lambda { |query|
     where(['name LIKE ? ',"%#{query}% "])
   }
   scope :search_more_fields ,lambda { |query|

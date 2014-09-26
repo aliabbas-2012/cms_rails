@@ -1,6 +1,6 @@
 class DemoController < ApplicationController
   layout 'admin'
-  before_action :confirmed_login ,except: [:login,:logout,:attempt_login,:create_user,:create_subjects]
+  before_action :confirmed_login ,except: [:login,:logout,:attempt_login,:current_admin_user]
   def index
   end
 
@@ -69,5 +69,6 @@ class DemoController < ApplicationController
       subject = Subject.create({:name => "Maths #{val}", :description => "Maths For It #{val}", :position => val, :is_visible => 1})
       @subject[subject.id] = subject
     end
+
   end
 end

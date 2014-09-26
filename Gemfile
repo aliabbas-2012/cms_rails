@@ -55,3 +55,7 @@ gem 'will_paginate-bootstrap'
 #for bootstrap layout
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+
+#for installation of admin panel
+
+gem 'activeadmin', github: 'activeadmin'
