@@ -61,3 +61,4 @@ gem 'autoprefixer-rails'
 
 gem 'activeadmin', github: 'activeadmin'
 gem 'kaminari'
+gem 'devise'

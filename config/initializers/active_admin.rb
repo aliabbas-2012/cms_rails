@@ -89,11 +89,6 @@ config.current_user_method = :current_admin_user
 
 
 
-  def authenticate_admin_user!
-    current_user.try(:admin?)
-  end
-
-
 
   # == Logging Out
   #
@@ -106,6 +101,7 @@ config.current_user_method = :current_admin_user
   #
   # Default:
   config.logout_link_path = :destroy_admin_user_session_path
+  config.logout_link_method = :delete
 
   # This setting changes the http method used when rendering the
   # link. For example :get, :delete, :put, etc..

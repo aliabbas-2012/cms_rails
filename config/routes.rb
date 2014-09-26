@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   root 'demo#index'
   get 'demo/create-user' => 'demo#create_user'
   get 'demo/create-subjects' => 'demo#create_subjects'
+  get 'demo/logout'=>'demo#logout',:as=>:destroy_admin_user_session_path
   match ':controller(/:action)' ,:via => [:get, :post]
   match ':controller(/:action(:/id))' ,:via => [:get, :post]
 
