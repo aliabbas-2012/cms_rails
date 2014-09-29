@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
   end
   helper_method :current_admin_user
   def destroy_session_path
-
+    return url_for(controller: 'demo', action: 'logout')
   end
 
   helper_method :destroy_session_path
