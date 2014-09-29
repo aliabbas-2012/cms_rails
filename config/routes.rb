@@ -6,13 +6,19 @@ Rails.application.routes.draw do
   resources :posts
   resources :pages
   resources :subjects
+  #resources :demo
   resources "test-boot-strap", :as => :test_boot_straps, :controller => :test_boot_straps
 
   root 'demo#index'
+  get 'demo/login' => 'demo#login'
+  get 'admin/demo/login' => 'demo#login'
+
   get 'demo/create-user' => 'demo#create_user'
+
   get 'demo/create-subjects' => 'demo#create_subjects'
   delete 'demo/logout'=>'demo#logout',:as=>:destroy_session_path
   delete 'admin/demo/logout'=>'demo#logout'
+
   match ':controller(/:action)' ,:via => [:get, :post]
   match ':controller(/:action(:/id))' ,:via => [:get, :post]
 

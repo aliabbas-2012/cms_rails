@@ -100,6 +100,8 @@ config.current_user_method = :current_admin_user
   # will call the method to return the path.
   #
   # Default:
+
+  config.authentication_method = :confirmed_login
   config.logout_link_path = :destroy_session_path
   config.logout_link_method = :delete
 
@@ -108,8 +110,8 @@ config.current_user_method = :current_admin_user
   # link. For example :get, :delete, :put, etc..
   #
   # Default:
-  #
-  config.logout_link_method = :get
+  #  config.logout_link_method = :get
+
 
 
   # == Root
