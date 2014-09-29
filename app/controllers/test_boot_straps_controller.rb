@@ -40,7 +40,7 @@ class TestBootStrapsController < ApplicationController
         format.json { render json: @test_boot_strap.errors, status: :unprocessable_entity }
       end
     end
-  end
+  endnotice
 
   # PATCH/PUT /test_boot_straps/1
   # PATCH/PUT /test_boot_straps/1.json
