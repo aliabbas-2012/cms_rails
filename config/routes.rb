@@ -8,8 +8,9 @@ Rails.application.routes.draw do
   resources :subjects
   #resources :demo
   resources "test-boot-strap", :as => :test_boot_straps, :controller => :test_boot_straps
-
+  resources :products
   root 'demo#index'
+
   get 'demo/login' => 'demo#login'
   get 'admin/demo/login' => 'demo#login'
 

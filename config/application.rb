@@ -21,3 +21,5 @@ module SimpleCms
     # config.i18n.default_locale = :de
   end
 end
+#load data list
+require 'data_list'

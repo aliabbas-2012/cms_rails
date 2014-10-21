@@ -32,6 +32,10 @@ module ApplicationHelper
 
   end
 
+  def print_my_name(name)
+    yield("Block String", "Second Param") if block_given?
+    name.html_safe
+  end
 
 
 

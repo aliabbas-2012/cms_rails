@@ -39,3 +39,20 @@
 <%= will_paginate @subjects,renderer: BootstrapPagination::Rails %>
 <br>
 
+<br/><br/><br/><br/>
+
+<%= print_my_name @subject do |block_param, second| %>
+    <h2><%= block_param.inspect %></h2>
+    <h2><%= second.inspect %></h2>
+    <h3>My Name is</h3>
+<% end %>
+
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+
+<% #data_listing_for @subjects do |list| %>
+    <% #list.heading proc { |product| product.name.upcase.to_s }, class: 'product-heading' %>
+    <% #list.heading :name %>
+    <% #list.text :name %>
+<% #end %>
+
