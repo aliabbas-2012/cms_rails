@@ -1,4 +1,4 @@
-<%= form_for(@page) do |f| %>
+<%= simple_form_for(@page) do |f| %>
     <% if @page.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@page.errors.count, 'error') %> prohibited this page from being saved:</h2>
@@ -17,9 +17,7 @@
       <%= f.text_field :name %>
     </div>
     <div class="field">
-      <%= f.label :subject_id %>
-      <br/>
-      <%= f.select( :subject_id, Subject.all.collect {|a| [a.name, a.id]}) -%>
+      <%= f.input( :subject_id,collection:Subject.all.collect {|a| [a.name, a.id]}) -%>
     </div>
     <div class="field">
       <%= f.label :permalink %>

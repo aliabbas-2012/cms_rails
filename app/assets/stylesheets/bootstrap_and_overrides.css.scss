@@ -1,3 +1,9 @@
+$navbar-default-link-active-color :red;
 @import 'bootstrap';
 @import 'bootstrap-sprockets';
+$bg_color : #000;
+
+body {
+  background: $bg_color;
+}
 

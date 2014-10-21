@@ -40,7 +40,7 @@ class TestBootStrapsController < ApplicationController
         format.json { render json: @test_boot_strap.errors, status: :unprocessable_entity }
       end
     end
-  endnotice
+  end
 
   # PATCH/PUT /test_boot_straps/1
   # PATCH/PUT /test_boot_straps/1.json
@@ -67,13 +67,14 @@ class TestBootStrapsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_test_boot_strap
-      @test_boot_strap = TestBootStrap.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_test_boot_strap
+    @test_boot_strap = TestBootStrap.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def test_boot_strap_params
-      params.require(:test_boot_strap).permit(:title, :description)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def test_boot_strap_params
+    params.require(:test_boot_strap).permit(:title, :description)
+  end
 end
+
