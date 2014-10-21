@@ -1,9 +1,11 @@
 module DataList
   class DataListBuilder
     include ActionView::Helpers::TagHelper
+    include ActionView::Context
 
-    def initialize(object)
+    def initialize(object, attributes = nil)
       @object = object
+      @attributes = attributes
     end
 
     def heading(attribute, options={})
@@ -24,8 +26,25 @@ module DataList
       end
     end
 
+    # list view in table
+    def list_view_header()
+      attributes = @attributes
+      content_tag(:table) do
+        content_tag (:thead) do
+          content_tag(:tr) do
+            attributes.map do |k, attribute|
+              content_tag (:th) do
+                attribute
+              end
+            end.join.html_safe
+          end
+        end
+      end
+    end
+
     protected
     def output_for_attribute(attribute)
+
       if attribute.is_a? Symbol
         @object.send attribute
       elsif attribute.is_a? String

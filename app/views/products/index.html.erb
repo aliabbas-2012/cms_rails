@@ -44,4 +44,8 @@
     <%= list.subheading 'description' %>
     <%= list.text :categories %>
 <% end %>
-
+<br/><br/><br/><br/>
+List view test
+<%= list_view @products,{:title=>'title',:description=>'description'} do |list| %>
+    <%=list.list_view_header %>
+<% end %>

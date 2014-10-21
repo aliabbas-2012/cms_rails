@@ -6,5 +6,10 @@ module DataList
       end
       ''
     end
+
+    def list_view(collection,attributes)
+      yield(DataListBuilder.new(collection,attributes)) if block_given?
+      ''
+    end
   end
 end
