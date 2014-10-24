@@ -26,7 +26,7 @@
 
 <br>
 <br>
-<%= table_for(@products) do |t| %>
+<%= table_for(@products,{:class=>'table table-striped'}) do |t| %>
     <% t.col :title %>
     <% t.col :description %>
     <% t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") } %>
@@ -56,3 +56,4 @@ List view test
 <%= list_view @products,{:title=>'title',:description=>'description'} do |list| %>
     <%=list.list_view_header %>
 <% end %>
+

@@ -2,10 +2,11 @@ module DataListTable
   class DataListTableColumn
     include ActiveSupport::Inflector
 
+
     attr_accessor :name, :options
 
     def initialize(name, options = {})
-      @name    = name
+      @name = name
       @options = options
     end
 
@@ -31,12 +32,17 @@ module DataListTable
   end
   class DataListTableTable
     include ActionView::Helpers::TagHelper
+    include WillPaginate::ViewHelpers
+    include ActionView::Helpers::UrlHelper
+    include Rails.application.routes.url_helpers
 
-    attr_accessor :template, :columns
 
-    def initialize(temp)
-      @columns  = Array.new
+    attr_accessor :template, :columns, :html_options, :controller
+
+    def initialize(temp, html_options = {})
+      @columns = Array.new
       @template = temp
+      @html_options = html_options
     end
 
     def col(name, options = {})
@@ -45,7 +51,7 @@ module DataListTable
 
 
     def show(list)
-      template.content_tag(:table) do
+      template.content_tag(:table, html_options) do
         template.output_buffer << template.content_tag(:tr) do
           columns.collect do |c|
             template.output_buffer << content_tag(:th, c.th_value)
@@ -59,6 +65,7 @@ module DataListTable
           end
         end
       end
+      #template.output_buffer << will_paginate(list, renderer: BootstrapPagination::Rails)
     end
 
   end

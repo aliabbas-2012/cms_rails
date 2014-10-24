@@ -22,7 +22,7 @@ Rails.application.routes.draw do
 
   match ':controller(/:action)' ,:via => [:get, :post]
   match ':controller(/:action(:/id))' ,:via => [:get, :post]
-
+  match ':controller(/:action(:/page))' ,:via => [:get, :post]
 
 
 
