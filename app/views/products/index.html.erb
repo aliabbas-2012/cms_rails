@@ -32,7 +32,9 @@
     <% t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") } %>
     <% t.col :description, :value => 'static value',:td=>'yes' %>
 <% end %>
-
+<div class="col-lg-12">
+  <%= will_paginate @products,renderer: BootstrapPagination::Rails %>
+</div>
 <%= link_to 'New Product', new_product_path %>
 <br/><br/><br/><br/>
 
