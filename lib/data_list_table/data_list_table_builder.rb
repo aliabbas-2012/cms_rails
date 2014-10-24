@@ -11,7 +11,10 @@ module DataListTable
 
     def td_value(item)
       value = options[:td]
+
       if (value)
+        puts value.respond_to?('call')
+        puts 'here--------'
         if (value.respond_to?('call'))
           value.call(item)
         else
