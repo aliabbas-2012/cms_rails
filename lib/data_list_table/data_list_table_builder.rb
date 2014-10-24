@@ -14,8 +14,6 @@ module DataListTable
       value = options[:td]
 
       if (value)
-        puts value.respond_to?('call')
-        puts 'here--------'
         if (value.respond_to?('call'))
           value.call(item)
         else
@@ -30,23 +28,38 @@ module DataListTable
       options[:th] ||= humanize(name)
     end
   end
+  #Data Table lIST
   class DataListTableTable
     include ActionView::Helpers::TagHelper
+
     include WillPaginate::ViewHelpers
-    include ActionView::Helpers::UrlHelper
     include Rails.application.routes.url_helpers
 
 
     attr_accessor :template, :columns, :html_options, :controller
 
-    def initialize(temp, html_options = {})
+    def initialize(temp,controller, html_options = {})
       @columns = Array.new
       @template = temp
       @html_options = html_options
+      if defined?(WillPaginate)
+
+      end
+      @controller =  controller
     end
 
     def col(name, options = {})
       columns << DataListTableColumn.new(name, options)
+    end
+
+    def pagination_links(collection, options = {})
+
+      options[:renderer] ||= BootstrapPagination::Rails
+      options[:class] ||= 'pagination pagination-centered'
+      options[:inner_window] ||= 2
+      options[:outer_window] ||= 1
+      options[:params] = {:controller=>controller.controller_name,:action=>controller.action_name}
+      will_paginate(collection, options)
     end
 
 
@@ -65,8 +78,8 @@ module DataListTable
           end
         end
       end
-      #template.output_buffer << will_paginate(list, renderer: BootstrapPagination::Rails)
     end
 
   end
+
 end

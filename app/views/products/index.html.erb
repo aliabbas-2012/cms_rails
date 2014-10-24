@@ -26,15 +26,13 @@
 
 <br>
 <br>
-<%= table_for(@products,{:class=>'table table-striped'}) do |t| %>
+<%= table_for(@products,controller,{:class=>'table table-striped'}) do |t| %>
     <% t.col :title %>
     <% t.col :description %>
     <% t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") } %>
     <% t.col :description, :value => 'static value',:td=>'yes' %>
 <% end %>
-<div class="col-lg-12">
-  <%= will_paginate @products,renderer: BootstrapPagination::Rails %>
-</div>
+
 <%= link_to 'New Product', new_product_path %>
 <br/><br/><br/><br/>
 
