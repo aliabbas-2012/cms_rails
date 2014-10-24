@@ -32,35 +32,38 @@ module DataListTable
   class DataListTableTable
     include ActionView::Helpers::TagHelper
 
-    include WillPaginate::ViewHelpers
-    include Rails.application.routes.url_helpers
-
-
     attr_accessor :template, :columns, :html_options, :controller
 
-    def initialize(temp,controller, html_options = {})
+    def initialize(temp, controller, html_options = {})
       @columns = Array.new
       @template = temp
       @html_options = html_options
       if defined?(WillPaginate)
 
       end
-      @controller =  controller
+      @controller = controller
     end
 
     def col(name, options = {})
       columns << DataListTableColumn.new(name, options)
     end
 
-    def pagination_links(collection, options = {})
+    if defined?(WillPaginate)
+      include WillPaginate::ViewHelpers
+      include Rails.application.routes.url_helpers
 
-      options[:renderer] ||= BootstrapPagination::Rails
-      options[:class] ||= 'pagination pagination-centered'
-      options[:inner_window] ||= 2
-      options[:outer_window] ||= 1
-      options[:params] = {:controller=>controller.controller_name,:action=>controller.action_name}
-      will_paginate(collection, options)
+      def pagination_links(collection, options = {})
+
+        options[:renderer] ||= BootstrapPagination::Rails
+        options[:class] ||= 'pagination pagination-centered'
+        options[:inner_window] ||= 2
+        options[:outer_window] ||= 1
+        options[:params] = {:controller => controller.controller_name, :action => controller.action_name}
+        will_paginate(collection, options)
+      end
     end
+
+
 
 
     def show(list)
