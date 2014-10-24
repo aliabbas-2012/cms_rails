@@ -25,6 +25,11 @@
 </table>
 
 <br>
+<br>
+<%= table_for(@products) do |t| %>
+    <% t.col :title %>
+
+<% end %>
 
 <%= link_to 'New Product', new_product_path %>
 <br/><br/><br/><br/>

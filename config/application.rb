@@ -23,3 +23,4 @@ module SimpleCms
 end
 #load data list
 require 'data_list'
+require 'data_list_table'
