@@ -63,14 +63,19 @@ module DataListTable
       end
     end
 
-
-
-
     def show(list)
-      template.content_tag(:table, html_options) do
-        template.output_buffer << template.content_tag(:tr) do
-          columns.collect do |c|
-            template.output_buffer << content_tag(:th, c.th_value)
+      puts html_options
+      template.output_buffer << template.content_tag(:table, html_options) do
+        template.output_buffer << template.content_tag(:thead) do
+          template.output_buffer << template.content_tag(:tr) do
+            columns.collect do |c|
+              if !c.options[:link].nil? && c.options[:link] ==true
+                template.output_buffer << content_tag(:th, self.sort_link_helper(c.th_value, "id"))
+              else
+                template.output_buffer << content_tag(:th, c.th_value)
+              end
+
+            end
           end
         end
         list.collect do |item|
@@ -81,6 +86,22 @@ module DataListTable
           end
         end
       end
+    end
+    #sorting linnk
+    def sort_link_helper(text, param)
+      key = param
+
+      key += "_reverse" if params[:sort] == param
+      options = {
+          :url => {:action => 'index', :params => params.merge({:sort => key, :page => nil})},
+          :update => 'table',
+          :before => "Element.show('spinner')",
+          :success => "Element.hide('spinner')"
+      }
+      html_options = {
+          :title => "Sort by this field"
+      }
+      link_to(text, {:action => 'index',:sort => key,:page => params[:page].nil?? 1:params[:page]}, html_options)
     end
 
   end
