@@ -9,7 +9,19 @@ class ProductsController < ApplicationController
       params[:page] = 1
     end
 
-    @products = Product.paginate(:per_page => 2, :page => params[:page])
+    sort = 'id ASC'
+    sort = case params['sort']
+             when "title"  then "title"
+             when "title_reverse"  then "title DESC"
+
+             when "id"  then "id"
+             when "id_reverse"  then "id DESC"
+
+             when "is_visible"  then "is_visible"
+             when "is_visible_reverse"  then "is_visible DESC"
+           end
+
+    @products = Product.paginate(:per_page => 5, :page => params[:page]).order(sort)
 
   end
 

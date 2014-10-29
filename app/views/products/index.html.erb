@@ -27,8 +27,8 @@
 <h1>Table Pluggin practice</h1>
 <br>
 <br>
-<%= table_for(@products,controller,{:class=>'table table-striped'}) do |t| %>
-    <% t.col :title ,:link=>true %>
+<%= table_for(@products,params,controller,{:class=>'table table-striped'}) do |t| %>
+    <% t.col :title ,:link=>true,:column=>'title' %>
     <% t.col :description %>
     <% t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") } %>
     <% t.col :description, :value => 'static value',:td=>'yes' %>

@@ -32,12 +32,13 @@ module DataListTable
   class DataListTableTable
     include ActionView::Helpers::TagHelper
 
-    attr_accessor :template, :columns, :html_options, :controller
+    attr_accessor :template, :columns, :html_options, :controller,:params
 
-    def initialize(temp, controller, html_options = {})
+    def initialize(temp, params,controller, html_options = {})
       @columns = Array.new
       @template = temp
       @html_options = html_options
+      @params = params
       if defined?(WillPaginate)
 
       end
@@ -50,7 +51,9 @@ module DataListTable
 
     if defined?(WillPaginate)
       include WillPaginate::ViewHelpers
+      include ActionView::Helpers::UrlHelper
       include Rails.application.routes.url_helpers
+
 
       def pagination_links(collection, options = {})
 
@@ -70,7 +73,7 @@ module DataListTable
           template.output_buffer << template.content_tag(:tr) do
             columns.collect do |c|
               if !c.options[:link].nil? && c.options[:link] ==true
-                template.output_buffer << content_tag(:th, self.sort_link_helper(c.th_value, "id"))
+                template.output_buffer << content_tag(:th, self.sort_link_helper(c.th_value,self.params,c.options[:column]))
               else
                 template.output_buffer << content_tag(:th, c.th_value)
               end
@@ -88,7 +91,8 @@ module DataListTable
       end
     end
     #sorting linnk
-    def sort_link_helper(text, param)
+    def sort_link_helper(text, params,param)
+
       key = param
 
       key += "_reverse" if params[:sort] == param
