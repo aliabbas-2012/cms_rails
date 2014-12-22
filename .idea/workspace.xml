@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e9263c6-e5d7-409f-954f-d8d226c705cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140922133347_create_test_boot_straps.rb" afterPath="$PROJECT_DIR$/db/migrate/20140922133347_create_test_boot_straps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140925143501_create_active_admin_comments.rb" afterPath="$PROJECT_DIR$/db/migrate/20140925143501_create_active_admin_comments.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__cms_rails.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__cms_rails.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__cms_rails.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__cms_rails.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" afterPath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/active_admin.rb" afterPath="$PROJECT_DIR$/config/initializers/active_admin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/admin2.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/admin2.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cms_rails.iml" afterPath="$PROJECT_DIR$/.idea/cms_rails.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/demo/create_subjects.html.erb" afterPath="$PROJECT_DIR$/app/views/demo/create_subjects.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" afterPath="$PROJECT_DIR$/app/admin/dashboard.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/index.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/new.html.erb" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/pages_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/pages_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helpers/pages_helper_test.rb" afterPath="$PROJECT_DIR$/test/helpers/pages_helper_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/post.rb" afterPath="$PROJECT_DIR$/app/admin/post.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/post_test.rb" afterPath="$PROJECT_DIR$/test/models/post_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/posts.yml" afterPath="$PROJECT_DIR$/test/fixtures/posts.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helpers/posts_helper_test.rb" afterPath="$PROJECT_DIR$/test/helpers/posts_helper_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/show.html.erb" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/test_boot_straps/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/test_boot_straps/show.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__cms_rails.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__cms_rails.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/subject.rb" afterPath="$PROJECT_DIR$/app/admin/subject.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/subjects_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/subjects_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helpers/subjects_helper_test.rb" afterPath="$PROJECT_DIR$/test/helpers/subjects_helper_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__cms_rails.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__cms_rails.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/test_boot_strap.rb" afterPath="$PROJECT_DIR$/app/models/test_boot_strap.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/test_boot_strap_test.rb" afterPath="$PROJECT_DIR$/test/models/test_boot_strap_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/test_boot_straps.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/test_boot_straps.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/test_boot_straps.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/test_boot_straps.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/test_boot_straps.yml" afterPath="$PROJECT_DIR$/test/fixtures/test_boot_straps.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/test_boot_straps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/test_boot_straps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/test_boot_straps_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/test_boot_straps_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/test_boot_straps_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/test_boot_straps_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helpers/test_boot_straps_helper_test.rb" afterPath="$PROJECT_DIR$/test/helpers/test_boot_straps_helper_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/will_paginate.rb" afterPath="$PROJECT_DIR$/config/initializers/will_paginate.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cms_rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,28 +128,6 @@
               <option name="myItemId" value="cms_rails" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ModuleExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; rbenv: 2.1.2 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -267,7 +188,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_forms" />
+    <property name="last_opened_file_path" value="/var/www/intilio_app" />
   </component>
   <component name="RunManager" selected="Rails.Development: cms_rails">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -476,7 +397,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25990596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26326394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -484,12 +405,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -508,9 +429,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19959812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41146496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
