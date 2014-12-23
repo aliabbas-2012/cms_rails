@@ -32,9 +32,9 @@ module DataListTable
   class DataListTableTable
     include ActionView::Helpers::TagHelper
 
-    attr_accessor :template, :columns, :html_options, :controller,:params
+    attr_accessor :template, :columns, :html_options, :controller, :params
 
-    def initialize(temp, params,controller, html_options = {})
+    def initialize(temp, params, controller, html_options = {})
       @columns = Array.new
       @template = temp
       @html_options = html_options
@@ -73,7 +73,7 @@ module DataListTable
           template.output_buffer << template.content_tag(:tr) do
             columns.collect do |c|
               if !c.options[:link].nil? && c.options[:link] ==true
-                template.output_buffer << content_tag(:th, self.sort_link_helper(c.th_value,self.params,c.options[:column]))
+                template.output_buffer << content_tag(:th, self.sort_link_helper(c.th_value, self.params, c.options[:column]))
               else
                 template.output_buffer << content_tag(:th, c.th_value)
               end
@@ -84,14 +84,26 @@ module DataListTable
         list.collect do |item|
           template.output_buffer << template.content_tag(:tr) do
             columns.collect do |c|
-              template.output_buffer << template.content_tag(:td, c.td_value(item))
+              if !c.options[:button].blank?
+                if c.options[:button]=='edit'
+                  edit_link = {:controller => controller.controller_name, :action =>'edit',:id=>item.id}
+                  template.output_buffer << template.content_tag(:td, link_to('Edit', edit_link))
+                elsif c.options[:button]=='view'
+                  template.output_buffer << template.content_tag(:td, link_to('Show', item))
+                elsif c.options[:button]=='delete'
+                  template.output_buffer << template.content_tag(:td,  link_to('Destroy', item, method: :delete, data: {confirm: 'Are you sure?'}))
+                end
+              else
+                template.output_buffer << template.content_tag(:td, c.td_value(item))
+              end
             end
           end
         end
       end
     end
+
     #sorting linnk
-    def sort_link_helper(text, params,param)
+    def sort_link_helper(text, params, param)
 
       key = param
 
@@ -105,7 +117,7 @@ module DataListTable
       html_options = {
           :title => "Sort by this field"
       }
-      link_to(text, {:action => 'index',:sort => key,:page => params[:page].nil?? 1:params[:page]}, html_options)
+      link_to(text, {:action => 'index', :sort => key, :page => params[:page].nil? ? 1 : params[:page]}, html_options)
     end
 
   end

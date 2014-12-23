@@ -31,7 +31,9 @@
     <% t.col :title ,:link=>true,:column=>'title' %>
     <% t.col :description %>
     <% t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") } %>
-    <% t.col :description, :value => 'static value',:td=>'yes' %>
+    <% t.col :actions, :value => 'static value',:td=>'yes',:button=>'edit' %>
+    <% t.col :actions, :value => 'static value',:td=>'yes',:button=>'view' %>
+    <% t.col :actions, :value => 'static value',:td=>'yes',:button=>'delete' %>
 <% end %>
 
 <%= link_to 'New Product', new_product_path %>
