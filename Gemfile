@@ -65,3 +65,5 @@ gem 'autoprefixer-rails'
 gem 'activeadmin', github: 'activeadmin'
 gem 'kaminari'
 gem 'devise'
+
+gem 'rails_12factor', group: :production
