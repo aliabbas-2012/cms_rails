@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails cms_rails: default" uuid="f598adfb-4ec4-4bf2-ad64-7edfb5bf5465">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails cms_rails: development" uuid="d508ffcf-01b7-467d-90ed-c229befe4f1b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails cms_rails: test" uuid="2429f5e6-eb62-4c8f-a044-a6f70ca74e90">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails cms_rails: production" uuid="6f2734ec-6a4e-4d47-afad-b0b5f9d92754">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

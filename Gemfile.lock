@@ -115,6 +115,7 @@ GEM
     multi_json (1.10.1)
     mysql2 (0.3.16)
     orm_adapter (0.5.0)
+    pg (0.13.2)
     polyamorous (1.1.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
@@ -206,6 +207,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   mysql2
+  pg (~> 0.13.2)
   rails (= 4.1.4)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
