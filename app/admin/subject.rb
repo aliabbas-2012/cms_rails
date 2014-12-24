@@ -9,8 +9,11 @@ ActiveAdmin.register Subject do
 
     end
     f.inputs "Upload Image" do
-      f.input :image, :as => :file, :hint => (link_to "Download", (f.object.image_url))
-      #f.input :image, :as => :file, :hint => f.template.image_tag(f.object.image_url)
+      if f.object.image.content_type.include? 'image'
+        f.input :image, :as => :file, :hint => f.template.image_tag(f.object.image_url)
+      else
+        f.input :image, :as => :file, :hint => (link_to "Download", (f.object.image_url))
+      end
     end
     f.inputs "Content" do
       f.input :description
@@ -50,8 +53,11 @@ ActiveAdmin.register Subject do
 
       attributes_table do
         row :image do
-          #image_tag(f.image.url)
-          (link_to "Download", (f.image_url))
+          if f.image.content_type.include? 'image'
+            image_tag(f.image.url)
+          else
+            (link_to "Download", (f.image_url))
+          end
         end
       end
     end
