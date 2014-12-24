@@ -1,6 +1,23 @@
 ActiveAdmin.register Subject do
 
-  permit_params :name,:image, :description, :is_visible, pages_attributes: [:id, :name, :permalink, :body, :is_visible, :_destroy]
+  index do
+    column :name
+    column :is_visible
+    column "image" do |subject|
+      unless subject.image.blank?
+        if subject.image.content_type.include? 'image'
+          image_tag(subject.image.url,{height: 20})
+        else
+          (link_to "Download", (subject.image_url))
+        end
+      end
+    end
+    column :description
+    actions
+  end
+
+
+  permit_params :name, :image, :description, :is_visible, pages_attributes: [:id, :name, :permalink, :body, :is_visible, :_destroy]
   form do |f|
     f.inputs "Details" do
       f.input :name

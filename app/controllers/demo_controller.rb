@@ -4,6 +4,10 @@ class DemoController < ApplicationController
   def index
   end
 
+  def slim_template
+    render :layout => false
+  end
+
   def login
 
   end

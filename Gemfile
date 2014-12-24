@@ -68,3 +68,6 @@ gem 'devise'
 
 gem 'rails_12factor', group: :production
 gem 'carrierwave'
+
+#slim template
+gem 'slim-rails'
