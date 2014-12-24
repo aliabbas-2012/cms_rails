@@ -13,7 +13,9 @@
 
 
     <%= f.input :name %>
-    <%= f.input :description, as: :text, input_html: { rows: 3, cols: 25} %>
+    <%= f.input :description, as: :text, input_html: {rows: 3, cols: 25} %>
+
+    <%= f.input :image, as: :file, multiple: true, input_html: {class: ''} %>
 
 
     <%= f.input :is_visible, as: :boolean %>
@@ -21,7 +23,7 @@
     <h3>Pages</h3>
     <div id="pages">
       <%= f.simple_fields_for :pages do |e| %>
-          <%= render 'page_fields',f: e %>
+          <%= render 'page_fields', f: e %>
       <% end %>
       <div class="clear"></div>
       <div class="links col-lg-9">

@@ -32,12 +32,16 @@ class SubjectsController < ApplicationController
   # GET /subjects/new
   def new
     @subject = Subject.new
+    #puts params
+    #puts "-----------------"
+    #@subject.image = params['image']
     @subject.pages.build
   end
 
   # GET /subjects/1/edit
   def edit
     @subject.pages.build
+    #@subject.image = params['image']
   end
 
   # POST /subjects
@@ -47,6 +51,7 @@ class SubjectsController < ApplicationController
 
     respond_to do |format|
       if @subject.save
+
         format.html { redirect_to @subject, :flash => { :success =>'Subject was successfully created.' }}
         format.json { render :show, status: :created, location: @subject }
       else
@@ -88,6 +93,6 @@ class SubjectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def subject_params
-      params[:subject].permit(:name, :description, :is_visible,pages_attributes: [:id,:name,:permalink, :body, :is_visible, :_destroy])
+      params[:subject].permit(:name, :description,:image, :is_visible,pages_attributes: [:id,:name,:permalink, :body, :is_visible, :_destroy])
     end
 end

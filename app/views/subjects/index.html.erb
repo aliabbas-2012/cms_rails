@@ -16,6 +16,7 @@
       <th <%= sort_td_class_helper "is_visible" %> style="width:10%">
         <%= sort_link_helper "Visible", "is_visible" %>
       </th>
+      <th style="width:40%">Image</th>
       <th colspan="3" style="width:20%"></th>
     </tr>
     </thead>
@@ -27,6 +28,7 @@
           <td><%= subject.name %></td>
           <td><%= subject.description %></td>
           <td><%= status_tag(subject.is_visible, subject.visibility) %></td>
+          <td><%=  !subject.image.blank?? (link_to "Download", subject.image_url):'' %></td>
           <td><%= link_to 'Show', subject, :class => 'action show' %></td>
           <td><%= link_to 'Edit', edit_subject_path(subject), :class => 'action edit' %></td>
           <td><%= link_to 'Destroy', subject, method: :delete, data: {confirm: 'Are you sure?'}, :class => 'action delete' %></td>

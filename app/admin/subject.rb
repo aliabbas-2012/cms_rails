@@ -5,11 +5,18 @@ ActiveAdmin.register Subject do
     f.inputs "Details" do
       f.input :name
       f.input :is_visible
+      #f.file_field :image
 
+    end
+    f.inputs "Upload Image" do
+      f.input :image, :as => :file, :hint => (link_to "Download", (f.object.image_url))
+      #f.input :image, :as => :file, :hint => f.template.image_tag(f.object.image_url)
     end
     f.inputs "Content" do
       f.input :description
+
     end
+
 
     f.has_many :pages do |k|
       if k.object.nil?
@@ -40,6 +47,13 @@ ActiveAdmin.register Subject do
   show do |f|
     panel "Subject" do
       attributes_table_for f, :name, :description, :is_visible
+
+      attributes_table do
+        row :image do
+          #image_tag(f.image.url)
+          (link_to "Download", (f.image_url))
+        end
+      end
     end
 
     panel "Pages in List View" do
@@ -47,6 +61,7 @@ ActiveAdmin.register Subject do
         column :name
         column :permalink
         column :is_visible
+
 
       end
     end
