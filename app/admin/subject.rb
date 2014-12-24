@@ -1,6 +1,6 @@
 ActiveAdmin.register Subject do
 
-  permit_params :name, :description, :is_visible, pages_attributes: [:id, :name, :permalink, :body, :is_visible, :_destroy]
+  permit_params :name,:image, :description, :is_visible, pages_attributes: [:id, :name, :permalink, :body, :is_visible, :_destroy]
   form do |f|
     f.inputs "Details" do
       f.input :name
