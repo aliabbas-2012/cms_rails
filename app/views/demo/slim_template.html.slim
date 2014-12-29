@@ -4,23 +4,30 @@ html
   /!This is a html comment that will be rendered in the final html
       /This is a slim comment
   /! - This page was generated using Slim
+    !!
 
     /Indentation matters
 
     /Output assigned to a tag
+    /it may be someday we discover another one
+    /
     title = content_for?(:title) ? yield(:title) : "Galilean moons|Slim CheatSheet"
     /write attributes directly after the tag
     meta charset="utf-8"
 
     /helpers
+
+
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
 
+
+
   /The dash represents control code .e.g. loops or conditionals
   /as well variable assignation.
   -total_moons=67
-  /it may be someday we discover another one !
+
 
   body
     /text content goes right after the html tag or last attribute
@@ -39,10 +46,25 @@ html
 
       /inline tags
       ul
-        li: label Lo (Jupiter I)
-        li: label Europa (Jupiter II)
+        li: label class="first" Lo (Jupiter I)
+        li: label :span Europa (Jupiter II)
         li: label Ganymede (Jupiter III)
         li: label Callisto (Jupiter IV)
+
+      br
+      br
+      h1 New Data print in Loop
+      ul
+        -(1..5).each do |val|
+          li: label =val
+
+      h1 All Subjects
+
+      - subjects = Subject.all
+      ul
+        - subjects.each do |subject|
+          li : label =subject.name
+
 
       /The pipe tells Slim to copy the line. It escapes any processing.
       p class="small"
