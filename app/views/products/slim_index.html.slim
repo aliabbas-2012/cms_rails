@@ -1,49 +1,49 @@
-html
-  head
-
-
-    /Indentation matters
-
-    /Output assigned to a tag
-    /it may be someday we discover another one
-    /
-    title = content_for?(:title) ? yield(:title) : "All Products in slim template"
-    /write attributes directly after the tag
-    meta charset="utf-8"
-
-    /helpers
-
-
-    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
-    = javascript_include_tag "application", "data-turbolinks-track" => true
-    = csrf_meta_tags
-
-  body
+/html
+/  head
+/
+/
+/    /Indentation matters
+/
+/    /Output assigned to a tag
+/    /it may be someday we discover another one
+/    /
+/    title = content_for?(:title) ? yield(:title) : "All Products in slim template"
+/    /write attributes directly after the tag
+/    meta charset="utf-8"
+/
+/    /helpers
+/
+/
+/    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+/    = javascript_include_tag "application", "data-turbolinks-track" => true
+/    = csrf_meta_tags
+/
+/  body
     /text content goes right after the html tag or last attribute
     h1  Products in Slim Template
 
-    table
-      thead
+table
+  thead
+    tr
+      th Title
+      th Description
+      th colspan='3'
+    tbody
+      - @products.each do |product|
         tr
-          th Title
-          th Description
-          th colspan='3'
-        tbody
-          - @products.each do |product|
-            tr
-              td =product.title
-              td =product.description
-              td =link_to 'Show', product
-              td =link_to 'Edit', edit_product_path(product)
-              td =link_to 'Destroy', product, method: :delete, data: {confirm: 'Are you sure?'}
+          td =product.title
+          td =product.description
+          td =link_to 'Show', product
+          td =link_to 'Edit', edit_product_path(product)
+          td =link_to 'Destroy', product, method: :delete, data: {confirm: 'Are you sure?'}
 
-    h1  Products in Slim Template using Table Pluggin
+h1  Products in Slim Template using Table Pluggin
 
-    -table_for(@products,params,controller,{:class=>'table table-striped'}) do |t|
-      -t.col :title ,:link=>true,:column=>'title'
-      -t.col :description
-      -t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") }
-      -t.col :actions, :value => 'static value',:td=>'yes',:button=>'edit'
-      -t.col :actions, :value => 'static value',:td=>'yes',:button=>'view'
-      -t.col :actions, :value => 'static value',:td=>'yes',:button=>'delete'
+=table_for(@products,params,controller,{:class=>'table table-striped'}) do |t|
+  -t.col :title ,:link=>true,:column=>'title'
+  -t.col :description
+  -t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") }
+  -t.col :actions, :value => 'static value',:td=>'yes',:button=>'edit'
+  -t.col :actions, :value => 'static value',:td=>'yes',:button=>'view'
+  -t.col :actions, :value => 'static value',:td=>'yes',:button=>'delete'
 

@@ -45,7 +45,7 @@ class ProductsController < ApplicationController
            end
 
     @products = Product.paginate(:per_page => 5, :page => params[:page]).order(sort)
-    render :layout => false
+
   end
 
   # GET /products/1
