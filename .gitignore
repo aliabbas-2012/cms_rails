@@ -14,5 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-/.idea
+/.idea/*.xml
 /pubic/upload/*
+.idea/*.xml
+.idea/*.xml~

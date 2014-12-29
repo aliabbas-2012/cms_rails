@@ -33,6 +33,12 @@
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddf87dff9dfe3dfe7dffadfe6dfefdff5dfe9dfe7dff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
+    <data-source source="LOCAL" name="Rails CarrierWaveExample: development" uuid="54da589c-8783-478d-a836-5233afa324a0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../CarrierWaveExample/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
   </component>
 </project>
 
