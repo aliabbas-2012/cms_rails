@@ -40,6 +40,8 @@ table
 h1  Products in Slim Template using Table Pluggin
 
 =table_for(@products,params,controller,{:class=>'table table-striped'}) do |t|
+
+  -t.col :id,:link=>true,:column=>'id', :td=>lambda { |u| link_to(u.id,u) }
   -t.col :title ,:link=>true,:column=>'title'
   -t.col :description
   -t.col :categories, :td=>lambda { |u| u.categories.split(",").join(" ") }

@@ -103,11 +103,11 @@ module DataListTable
     end
 
     #sorting linnk
-    def sort_link_helper(text, params, param)
+    def sort_link_helper(text, params, column)
 
-      key = param
+      key = column
 
-      key += "_reverse" if params[:sort] == param
+      key += "_reverse" if params[:sort] == column
       options = {
           :url => {:action => 'index', :params => params.merge({:sort => key, :page => nil})},
           :update => 'table',
@@ -117,7 +117,7 @@ module DataListTable
       html_options = {
           :title => "Sort by this field"
       }
-      link_to(text, {:action => 'index', :sort => key, :page => params[:page].nil? ? 1 : params[:page]}, html_options)
+      link_to(text, {:controller => controller.controller_name,:action => controller.action_name, :sort => key, :page => params[:page].nil? ? 1 : params[:page]}, html_options)
     end
 
   end
