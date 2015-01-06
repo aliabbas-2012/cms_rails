@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1684507166">
+  <component name="DataSourceManagerImpl" format="xml" hash="2659553559">
     <data-source source="LOCAL" name="Rails cms_rails: default" uuid="f598adfb-4ec4-4bf2-ad64-7edfb5bf5465">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -37,6 +37,12 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../CarrierWaveExample/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails blog: development" uuid="e473a950-09b4-4480-9049-1b7abea0bbe7">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../241-simple-omniauth/blog/db/development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

@@ -12,4 +12,10 @@
   <data-source source="LOCAL" name="Rails cms_rails: production" uuid="6f2734ec-6a4e-4d47-afad-b0b5f9d92754">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails CarrierWaveExample: development" uuid="54da589c-8783-478d-a836-5233afa324a0">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails blog: development" uuid="e473a950-09b4-4480-9049-1b7abea0bbe7">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

@@ -28,25 +28,49 @@ module DataListTable
       options[:th] ||= humanize(name)
     end
   end
+
+  class DataListTableActionColumn
+    include ActiveSupport::Inflector
+
+    attr_accessor :name, :actions, :options
+
+    def initialize(name, actions={}, options = {})
+      @name = name
+      @actions = actions
+      @options = options
+    end
+
+    def th_value
+      options[:th] ||= humanize(name)
+    end
+
+  end
+
   #Data Table lIST
   class DataListTableTable
     include ActionView::Helpers::TagHelper
 
-    attr_accessor :template, :columns, :html_options, :controller, :params
+    attr_accessor :template, :columns, :html_options, :controller, :params, :action_column
 
     def initialize(temp, params, controller, html_options = {})
       @columns = Array.new
       @template = temp
       @html_options = html_options
       @params = params
+      @action_column = Array.new
       if defined?(WillPaginate)
 
       end
       @controller = controller
     end
 
+
     def col(name, options = {})
       columns << DataListTableColumn.new(name, options)
+    end
+
+    def action_col(name, actions, options = {})
+      action_column[0] = DataListTableActionColumn.new(name, actions, options)
     end
 
     if defined?(WillPaginate)
@@ -67,36 +91,44 @@ module DataListTable
     end
 
     def show(list)
-      puts html_options
+
       template.output_buffer << template.content_tag(:table, html_options) do
+        #preparing header row
         template.output_buffer << template.content_tag(:thead) do
           template.output_buffer << template.content_tag(:tr) do
             columns.collect do |c|
+              content_options = {}
+
               if !c.options[:link].nil? && c.options[:link] ==true
                 template.output_buffer << content_tag(:th, self.sort_link_helper(c.th_value, self.params, c.options[:column]))
               else
-                template.output_buffer << content_tag(:th, c.th_value)
+                template.output_buffer << content_tag(:th, c.th_value, content_options)
               end
-
+            end
+            if action_column.size >0
+              template.output_buffer << content_tag(:th, action_column[0].th_value, {:colspan => action_column[0].actions.size})
             end
           end
         end
         list.collect do |item|
+          #preparing body rows
           template.output_buffer << template.content_tag(:tr) do
             columns.collect do |c|
-              if !c.options[:button].blank?
-                if c.options[:button]=='edit'
-                  edit_link = {:controller => controller.controller_name, :action =>'edit',:id=>item.id}
+              template.output_buffer << template.content_tag(:td, c.td_value(item))
+            end
+            if action_column.size >0
+              action_column[0].actions.each do |key, action|
+                if action=='edit'
+                  edit_link = {:controller => controller.controller_name, :action => 'edit', :id => item.id}
                   template.output_buffer << template.content_tag(:td, link_to('Edit', edit_link))
-                elsif c.options[:button]=='view'
+                elsif action=='view'
                   template.output_buffer << template.content_tag(:td, link_to('Show', item))
-                elsif c.options[:button]=='delete'
-                  template.output_buffer << template.content_tag(:td,  link_to('Destroy', item, method: :delete, data: {confirm: 'Are you sure?'}))
+                elsif action=='delete'
+                  template.output_buffer << template.content_tag(:td, link_to('Destroy', item, method: :delete, data: {confirm: 'Are you sure?'}))
                 end
-              else
-                template.output_buffer << template.content_tag(:td, c.td_value(item))
               end
             end
+
           end
         end
       end
@@ -117,7 +149,7 @@ module DataListTable
       html_options = {
           :title => "Sort by this field"
       }
-      link_to(text, {:controller => controller.controller_name,:action => controller.action_name, :sort => key, :page => params[:page].nil? ? 1 : params[:page]}, html_options)
+      link_to(text, {:controller => controller.controller_name, :action => controller.action_name, :sort => key, :page => params[:page].nil? ? 1 : params[:page]}, html_options)
     end
 
   end
