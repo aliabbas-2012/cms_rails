@@ -18,4 +18,13 @@
   <data-source source="LOCAL" name="Rails blog: development" uuid="e473a950-09b4-4480-9049-1b7abea0bbe7">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails boca: default" uuid="7b7194cb-0720-44ad-ad9f-604cfa0bcaca">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails boca: development" uuid="4492e045-d8f0-400c-8383-4edfae24c104">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails boca: production" uuid="9ce22080-23f6-498a-911b-ada8ee9f5572">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

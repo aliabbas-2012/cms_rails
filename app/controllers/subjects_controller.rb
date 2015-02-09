@@ -64,6 +64,7 @@ class SubjectsController < ApplicationController
   # PATCH/PUT /subjects/1
   # PATCH/PUT /subjects/1.json
   def update
+
     respond_to do |format|
       if @subject.update(subject_params)
         format.html { redirect_to @subject, :flash => { :success =>'Subject was successfully updated.' }}
