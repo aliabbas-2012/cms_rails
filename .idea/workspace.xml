@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f10b334d-6817-4635-8b65-5cd92ff4733a" name="Default" comment="adding new templates&#10;   1) authenticated user&#10;   2) guest user (for login and other screens etc)&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/boca.xml" />
+    <list default="true" id="f10b334d-6817-4635-8b65-5cd92ff4733a" name="Default" comment="Export pdf process using changing RBENV Version">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150416082626_hstoreenabledisable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150416084039_add_custom_field_subjects.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/subjects/_custom_field_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/aliabbas.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__OmniAuth.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__OmniAuth.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CarrierWaveExample/Gemfile.lock" afterPath="$PROJECT_DIR$/../CarrierWaveExample/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CarrierWaveExample/Gemfile" afterPath="$PROJECT_DIR$/../CarrierWaveExample/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/subjects/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/subjects/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cms_rails.iml" afterPath="$PROJECT_DIR$/.idea/cms_rails.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/railsprojects/boca/lib/fast_field.rb" afterPath="$USER_HOME$/railsprojects/boca/lib/fast_field.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/railsprojects/boca/app/controllers/site_controller.rb" afterPath="$USER_HOME$/railsprojects/boca/app/controllers/site_controller.rb" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/railsprojects/boca/app/models/inspection.rb" afterPath="$USER_HOME$/railsprojects/boca/app/models/inspection.rb" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/railsprojects/boca/app/models/concerns/notifyable.rb" afterPath="$USER_HOME$/railsprojects/boca/app/models/concerns/notifyable.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/subject.rb" afterPath="$PROJECT_DIR$/app/models/subject.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/railsprojects/boca/app/controllers/users_controller.rb" afterPath="$USER_HOME$/railsprojects/boca/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cms_rails.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$USER_HOME$/railsprojects/boca/tmp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +33,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -39,31 +41,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data_list_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/data_list/data_list_helper.rb">
+      <file leaf-file-name="subject.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fast_field.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$USER_HOME$/railsprojects/boca/lib/fast_field.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/subjects/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63380283" vertical-offset="1458" max-vertical-offset="2268">
-              <caret line="106" column="15" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/site_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2718">
-              <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.82758623">
+              <caret line="32" column="85" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -80,67 +82,47 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Ali" />
+        <option value="AliX" />
+        <option value="Ins" />
       </list>
     </option>
-    <option name="SYNC_SETTING" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/railsprojects/boca" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/edit.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/assets/stylesheets/wrapper_override.css.scss" />
-        <option value="$USER_HOME$/railsprojects/boca/config/initializers/assets.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/show.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/layouts/login.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/devise/registrations/change_password.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/employee_edit.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/employee_new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/assets/javascripts/application.js" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/devise/registrations/profile.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/index.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/show.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/edit.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/db/schema.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/uploaders/import_uploader.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/Gemfile" />
-        <option value="$USER_HOME$/railsprojects/boca/config/application.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/models/user.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/db/migrate/20150127083723_add_devise_to_models.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/db/migrate/20150209073713_create_imports.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/db/migrate/20150209100440_create_addresses.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/db/migrate/20150209100550_create_devices.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/address.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/devise/confirmations/new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/devise/passwords/edit.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/.gitignore" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/addresses.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/index.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/devices.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/controllers/imports_controller.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/address_new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/devices_new.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/layouts/admin.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/imports/_form.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/assets/stylesheets/bootstrap_override.css.scss" />
-        <option value="$USER_HOME$/railsprojects/boca/app/models/import.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/models/device.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/models/address.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/index.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/controllers/inspections_controller.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/recall.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_form.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_actions.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/repeat.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/helpers/inspections_helper.rb" />
+        <option value="$USER_HOME$/railsprojects/boca/app/assets/javascripts/inspection.js.coffee" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_inspection_sub_form_deficiency.html.slim" />
         <option value="$USER_HOME$/railsprojects/boca/config/routes.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/db/migrate/20150209145711_add_merge_mobile.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/views/users/_form.html.slim" />
-        <option value="$USER_HOME$/railsprojects/boca/app/controllers/users_controller.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/app/controllers/site_controller.rb" />
-        <option value="$USER_HOME$/railsprojects/boca/lib/fast_field.rb" />
+        <option value="$USER_HOME$/railsprojects/boca/app/controllers/inspections_controller.rb" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/re_dispatch.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_inspection_sub_form_fields.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_form.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_redispach_form.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_repeat_form.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/_basic_info_form.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/inspections/index.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/models/inspection_sub_form.rb" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/sub_forms/_sub_form_fields.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/sub_forms/show.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/views/sub_forms/_fields_list.html.slim" />
+        <option value="$USER_HOME$/railsprojects/boca/app/models/inspection.rb" />
+        <option value="$USER_HOME$/railsprojects/boca/app/models/concerns/notifyable.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/subjects_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/subject.rb" />
+        <option value="$PROJECT_DIR$/app/views/subjects/_form.html.erb" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
@@ -155,7 +137,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -202,20 +184,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -234,7 +202,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concerns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,52 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_list_table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,7 +274,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
+              <option name="myItemId" value="subjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms_rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,30 +306,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -414,66 +355,6 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boca" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boca" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ModelsFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boca" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Javascripts" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsPredefinedGroupFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms_rails" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boca" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -484,73 +365,47 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/railsprojects/boca" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="cont&#9;FILE&#9;file:///home/aliabbas/railsprojects/boca/app/controllers/contractors_controller.rb&#10;&#9;FILE&#9;file:///home/aliabbas/railsprojects/boca/app/views/inspections/show.pdf.slim" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="108" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="149" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1047" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="121" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="147" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1037" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/railsprojects/boca/app/models" />
-      <recent name="$USER_HOME$/railsprojects/boca/app/uploaders" />
-      <recent name="$USER_HOME$/railsprojects/boca/app" />
-      <recent name="$USER_HOME$/railsprojects/boca/app/controllers" />
-      <recent name="$USER_HOME$/railsprojects/boca/test/fixtures" />
+      <recent name="$USER_HOME$/railsprojects/boca/app/views/sub_forms" />
+      <recent name="$USER_HOME$/railsprojects/boca/app/views/contractors" />
+      <recent name="$USER_HOME$/railsprojects/boca/app/views/addresses" />
+      <recent name="$USER_HOME$/railsprojects/boca/app/assets/javascripts" />
+      <recent name="$USER_HOME$/railsprojects/boca/lib/tasks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/railsprojects/boca/app/views/addresses" />
+      <recent name="$USER_HOME$/railsprojects/boca/app/views" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.boca">
-    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -585,6 +440,56 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -603,9 +508,6 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -636,6 +538,15 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
     <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Rails.Development: cms_rails" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Production: cms_rails" />
@@ -656,69 +567,304 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="f10b334d-6817-4635-8b65-5cd92ff4733a" name="Default" comment="" />
       <created>1419836635773</created>
+      <option name="number" value="Default" />
       <updated>1419836635773</updated>
     </task>
-    <task id="LOCAL-00001" summary="Show the products from slim template using controller">
-      <created>1419853337459</created>
-      <updated>1419853337459</updated>
+    <task id="LOCAL-00228" summary="hide and show Accordion in">
+      <created>1428405613752</created>
+      <option name="number" value="00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1428405613752</updated>
     </task>
-    <task id="LOCAL-00002" summary="pluggin usage in slim template">
-      <created>1419853602165</created>
-      <updated>1419853602165</updated>
+    <task id="LOCAL-00229" summary="Export pdf process using changing RBENV Version">
+      <created>1428566170541</created>
+      <option name="number" value="00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1428566170541</updated>
     </task>
-    <task id="LOCAL-00003" summary="pluggin usage in slim template">
-      <created>1419861692860</created>
-      <updated>1419861692860</updated>
+    <task id="LOCAL-00230" summary="Fop generate pdf download">
+      <created>1428573421449</created>
+      <option name="number" value="00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1428573421449</updated>
     </task>
-    <task id="LOCAL-00004" summary="addin login page for boca">
-      <created>1422517555940</created>
-      <updated>1422517555940</updated>
+    <task id="LOCAL-00231" summary="s3 upload feature for inspection pdf">
+      <created>1428575934040</created>
+      <option name="number" value="00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1428575934040</updated>
     </task>
-    <task id="LOCAL-00005" summary="admin login working now">
-      <created>1422541001828</created>
-      <updated>1422541001828</updated>
+    <task id="LOCAL-00232" summary="Client and contractor vise versa subpanels">
+      <created>1428588382077</created>
+      <option name="number" value="00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1428588382077</updated>
     </task>
-    <task id="LOCAL-00006" summary="Flash messages settings">
-      <created>1422544499256</created>
-      <updated>1422544499256</updated>
+    <task id="LOCAL-00233" summary="require lable issues solved">
+      <created>1428588689853</created>
+      <option name="number" value="00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1428588689853</updated>
     </task>
-    <task id="LOCAL-00007" summary="Edit profile and change password">
-      <created>1422623755643</created>
-      <updated>1422623755643</updated>
+    <task id="LOCAL-00234" summary="dynamic string">
+      <created>1428590605265</created>
+      <option name="number" value="00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1428590605265</updated>
     </task>
-    <task id="LOCAL-00008" summary="Forget Password,Confirmation ,Login Template modification with respect to device&#10;&#10;Scaffold generate for users&#10;&#10;">
-      <created>1422630779142</created>
-      <updated>1422630779142</updated>
+    <task id="LOCAL-00235" summary="s3 bucket creation for client on create and edit if bucket not exist">
+      <created>1428657431091</created>
+      <option name="number" value="00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1428657431091</updated>
     </task>
-    <task id="LOCAL-00009" summary="adding collectors as recipients in api code from form">
-      <created>1423052235658</created>
-      <updated>1423052235658</updated>
+    <task id="LOCAL-00236" summary="Generating pdf for Inspection">
+      <created>1428675191709</created>
+      <option name="number" value="00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1428675191709</updated>
     </task>
-    <task id="LOCAL-00010" summary="adding new templates&#10;   1) authenticated user&#10;   2) guest user (for login and other screens etc)&#10;">
-      <created>1423218329682</created>
-      <updated>1423218329683</updated>
+    <task id="LOCAL-00237" summary="User Interface #9071&#10;&quot;Pictures&quot; button is crowding the &quot;Deficiencies&quot; section of the Admin Review form">
+      <created>1428912974355</created>
+      <option name="number" value="00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1428912974355</updated>
     </task>
-    <task id="LOCAL-00011" summary="adding new templates&#10;   1) authenticated user&#10;   2) guest user (for login and other screens etc)&#10;">
-      <created>1423242541184</created>
-      <updated>1423242541184</updated>
+    <task id="LOCAL-00238" summary="User Interface #9071&#10;&quot;Pictures&quot; button is crowding the &quot;Deficiencies&quot; section of the Admin Review form">
+      <created>1428913178458</created>
+      <option name="number" value="00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1428913178458</updated>
     </task>
-    <task id="LOCAL-00012" summary="importing clients&#10;importing devices&#10;users [Employee + clients]">
-      <created>1423487222318</created>
-      <updated>1423487222318</updated>
+    <task id="LOCAL-00239" summary="Preparing dynamic xml for Inspection">
+      <created>1428936926441</created>
+      <option name="number" value="00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1428936926441</updated>
     </task>
-    <task id="LOCAL-00013" summary="Re commit again&#10;import of addresses and clients &#10;">
-      <created>1423487336989</created>
-      <updated>1423487336989</updated>
+    <task id="LOCAL-00240" summary="xml Unsatisfacotry devices">
+      <created>1428998933874</created>
+      <option name="number" value="00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1428998933874</updated>
     </task>
-    <task id="LOCAL-00014" summary="devices import from excel">
-      <created>1423490665878</created>
-      <updated>1423490665878</updated>
+    <task id="LOCAL-00241" summary="Electric equipment completed">
+      <created>1429008223531</created>
+      <option name="number" value="00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1429008223531</updated>
     </task>
-    <task id="LOCAL-00015" summary="working on inserting user through api">
-      <created>1423497497193</created>
-      <updated>1423497497193</updated>
+    <task id="LOCAL-00242" summary="Electric equipment and its sub properties completed">
+      <created>1429016924808</created>
+      <option name="number" value="00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1429016924808</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00243" summary="Recommendation + PerformanceMeasures dummy data">
+      <created>1429020158722</created>
+      <option name="number" value="00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1429020158722</updated>
+    </task>
+    <task id="LOCAL-00244" summary="Fop dynamic generated xml and fo">
+      <created>1429029295925</created>
+      <option name="number" value="00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1429029295925</updated>
+    </task>
+    <task id="LOCAL-00245" summary="Generate pdf">
+      <created>1429031188043</created>
+      <option name="number" value="00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1429031188043</updated>
+    </task>
+    <task id="LOCAL-00246" summary="pdf fop">
+      <created>1429031415878</created>
+      <option name="number" value="00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1429031415878</updated>
+    </task>
+    <task id="LOCAL-00247" summary="pdf fop">
+      <created>1429031893908</created>
+      <option name="number" value="00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1429031893908</updated>
+    </task>
+    <task id="LOCAL-00248" summary="Download pdf from s3 bucket if already available &#10;other wise create and download">
+      <created>1429083824026</created>
+      <option name="number" value="00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1429083824026</updated>
+    </task>
+    <task id="LOCAL-00249" summary="Download pdf from s3 bucket if already available &#10;other wise create and download">
+      <created>1429083840264</created>
+      <option name="number" value="00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1429083840264</updated>
+    </task>
+    <task id="LOCAL-00250" summary="client side pdf generation and download">
+      <created>1429091965910</created>
+      <option name="number" value="00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1429091965910</updated>
+    </task>
+    <task id="LOCAL-00251" summary="Contractor will see client reports with respect if report is allowed to contractor">
+      <created>1429095139069</created>
+      <option name="number" value="00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1429095139069</updated>
+    </task>
+    <task id="LOCAL-00252" summary="checking pdf issues&#10;removing old extra cache folder using rake command">
+      <created>1429107331570</created>
+      <option name="number" value="00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1429107331570</updated>
+    </task>
+    <task id="LOCAL-00253" summary="Relations&#10;cleints =&gt; addresses =&gt;devices">
+      <created>1429194343745</created>
+      <option name="number" value="00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1429194343745</updated>
+    </task>
+    <task id="LOCAL-00254" summary="Inspection completed generate new pdf">
+      <created>1429194755006</created>
+      <option name="number" value="00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1429194755006</updated>
+    </task>
+    <task id="LOCAL-00255" summary="Client and Address relation final in subforms and model side">
+      <created>1429278196970</created>
+      <option name="number" value="00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1429278196970</updated>
+    </task>
+    <task id="LOCAL-00256" summary="Showing contractors in address">
+      <created>1429284183612</created>
+      <option name="number" value="00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1429284183612</updated>
+    </task>
+    <task id="LOCAL-00257" summary="Devices list in address">
+      <created>1429284409209</created>
+      <option name="number" value="00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1429284409209</updated>
+    </task>
+    <task id="LOCAL-00258" summary="Contractor will see addresses in their view page">
+      <created>1429285222459</created>
+      <option name="number" value="00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1429285222459</updated>
+    </task>
+    <task id="LOCAL-00259" summary="Will see this behavior in their portal&#10;&#10;Contractor =&gt; Building (report = 1) =&gt;client=&gt;reports&#10;Client =&gt; Building (report = 1) =&gt;reports&#10;&#10;">
+      <created>1429518649264</created>
+      <option name="number" value="00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1429518649264</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Relationship subpanel adding edit and view button directly to show particular record">
+      <created>1429519569127</created>
+      <option name="number" value="00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1429519569127</updated>
+    </task>
+    <task id="LOCAL-00261" summary="Status Email to boca users on status change">
+      <created>1429535177352</created>
+      <option name="number" value="00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1429535177352</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Download pdf rom  email for clients">
+      <created>1429537090032</created>
+      <option name="number" value="00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1429537090032</updated>
+    </task>
+    <task id="LOCAL-00263" summary="inspection response testing with brian">
+      <created>1429538006070</created>
+      <option name="number" value="00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1429538006070</updated>
+    </task>
+    <task id="LOCAL-00264" summary="inspection response testing with brian">
+      <created>1429544680482</created>
+      <option name="number" value="00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1429544680482</updated>
+    </task>
+    <task id="LOCAL-00265" summary="inspection response testing with brian">
+      <created>1429545237464</created>
+      <option name="number" value="00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1429545237464</updated>
+    </task>
+    <task id="LOCAL-00266" summary="inspection response testing with brian">
+      <created>1429545253663</created>
+      <option name="number" value="00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1429545253663</updated>
+    </task>
+    <task id="LOCAL-00267" summary="XML and delete inspection code for recall items those are pending">
+      <created>1429627359600</created>
+      <option name="number" value="00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1429627359600</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Recommendations also covered">
+      <created>1429628508961</created>
+      <option name="number" value="00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1429628508961</updated>
+    </task>
+    <task id="LOCAL-00269" summary="Recommendations also covered">
+      <created>1429628690269</created>
+      <option name="number" value="00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1429628690269</updated>
+    </task>
+    <task id="LOCAL-00270" summary="Recommendations also covered">
+      <created>1429628745430</created>
+      <option name="number" value="00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1429628745430</updated>
+    </task>
+    <task id="LOCAL-00271" summary="Repeat feature">
+      <created>1429704799822</created>
+      <option name="number" value="00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1429704799823</updated>
+    </task>
+    <task id="LOCAL-00272" summary="Repeat dispatch and Redispatch">
+      <created>1429713271642</created>
+      <option name="number" value="00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1429713271642</updated>
+    </task>
+    <task id="LOCAL-00273" summary="Repeat and Re dispatch based on same basic fields partial to minimize the code load">
+      <created>1429713948072</created>
+      <option name="number" value="00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1429713948072</updated>
+    </task>
+    <task id="LOCAL-00274" summary="Redispatch link on list view inspection">
+      <created>1429714246071</created>
+      <option name="number" value="00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1429714246071</updated>
+    </task>
+    <task id="LOCAL-00275" summary="Dynamic relationships for Inspection based on sub forms">
+      <created>1429776169209</created>
+      <option name="number" value="00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1429776169210</updated>
+    </task>
+    <task id="LOCAL-00276" summary="Sub form has fields panel under it detail page">
+      <created>1429776872488</created>
+      <option name="number" value="00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1429776872488</updated>
+    </task>
+    <option name="localTasksCounter" value="277" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -745,27 +891,50 @@
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1605104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17931497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28341168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.011417058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28676966" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28676966" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17931497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30154467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.011417058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28676966" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17931497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3559436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -779,439 +948,432 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-    <MESSAGE value="Working with slim template to write ruby code like each with active records" />
-    <MESSAGE value="Show the products from slim template using controller" />
-    <MESSAGE value="pluggin usage in slim template" />
-    <MESSAGE value="addin login page for boca" />
-    <MESSAGE value="admin login working now" />
-    <MESSAGE value="Flash messages settings" />
-    <MESSAGE value="Edit profile and change password" />
-    <MESSAGE value="Forget Password,Confirmation ,Login Template modification with respect to device&#10;&#10;Scaffold generate for users&#10;&#10;" />
-    <MESSAGE value="adding collectors as recipients in api code from form" />
-    <MESSAGE value="adding new templates&#10;   1) authenticated user&#10;   2) guest user (for login and other screens etc)&#10;" />
-    <MESSAGE value="importing clients&#10;importing devices&#10;users [Employee + clients]" />
-    <MESSAGE value="Re commit again&#10;import of addresses and clients &#10;" />
-    <MESSAGE value="devices import from excel" />
-    <MESSAGE value="working on inserting user through api" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on inserting user through api" />
+    <MESSAGE value="pdf fop" />
+    <MESSAGE value="Download pdf from s3 bucket if already available &#10;other wise create and download" />
+    <MESSAGE value="client side pdf generation and download" />
+    <MESSAGE value="Contractor will see client reports with respect if report is allowed to contractor" />
+    <MESSAGE value="checking pdf issues&#10;removing old extra cache folder using rake command" />
+    <MESSAGE value="Relations&#10;cleints =&gt; addresses =&gt;devices" />
+    <MESSAGE value="Inspection completed generate new pdf" />
+    <MESSAGE value="Client and Address relation final in subforms and model side" />
+    <MESSAGE value="Showing contractors in address" />
+    <MESSAGE value="Devices list in address" />
+    <MESSAGE value="Contractor will see addresses in their view page" />
+    <MESSAGE value="Will see this behavior in their portal&#10;&#10;Contractor =&gt; Building (report = 1) =&gt;client=&gt;reports&#10;Client =&gt; Building (report = 1) =&gt;reports&#10;&#10;" />
+    <MESSAGE value="Relationship subpanel adding edit and view button directly to show particular record" />
+    <MESSAGE value="Status Email to boca users on status change" />
+    <MESSAGE value="Download pdf rom  email for clients" />
+    <MESSAGE value="inspection response testing with brian" />
+    <MESSAGE value="XML and delete inspection code for recall items those are pending" />
+    <MESSAGE value="Recommendations also covered" />
+    <MESSAGE value="Repeat feature" />
+    <MESSAGE value="Repeat dispatch and Redispatch" />
+    <MESSAGE value="Repeat and Re dispatch based on same basic fields partial to minimize the code load" />
+    <MESSAGE value="Redispatch link on list view inspection" />
+    <MESSAGE value="Dynamic relationships for Inspection based on sub forms" />
+    <MESSAGE value="Sub form has fields panel under it" />
+    <MESSAGE value="Sub form has fields panel under it detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sub form has fields panel under it detail page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/railsprojects/boca/app/views/sub_form_fields/index.html.slim</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/railsprojects/boca/app/views/addresses/_form.html.slim</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/railsprojects/boca/app/views/inspections/repeat.html.slim</url>
+          <line>2</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/devise/passwords/new.html.slim">
+    <entry file="file://$USER_HOME$/railsprojects/boca/lib/tasks/emailer.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2635432" vertical-offset="0" max-vertical-offset="683">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/devise/passwords/edit.html.slim">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/contractors/_form.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1317716" vertical-offset="0" max-vertical-offset="683">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.25862068">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/devise/confirmations/new.html.slim">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/mailers/user_notifier.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.105417274" vertical-offset="0" max-vertical-offset="683">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="0.17842324">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/.gitignore">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/inspection_collobrator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4641834" vertical-offset="0" max-vertical-offset="450">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/layouts/application.html.slim">
+    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p550/lib/ruby/gems/1.9.1/gems/activerecord-3.0.3/lib/active_record/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.33239436">
+          <caret line="979" column="12" selection-start-line="979" selection-start-column="12" selection-end-line="979" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/public/uploads/tmp/fop/6f74401841d06784999d4c020c9a1a02/test_inspection.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.866667">
+          <caret line="348" column="27" selection-start-line="348" selection-start-column="22" selection-end-line="348" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/public/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/layouts/admin.html (old).slim">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/site_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="58.0" vertical-offset="1566" max-vertical-offset="3258">
+        <state vertical-scroll-proportion="1.4056338">
+          <caret line="492" column="69" selection-start-line="492" selection-start-column="69" selection-end-line="492" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/lib/tasks/dummy_data.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0394366">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/reports_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47605634">
+          <caret line="117" column="63" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150417132616_remove_address_column_from_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/addresses.html.slim">
+    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150408130720_add_s3_bucket_columninclient.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2898975" vertical-offset="0" max-vertical-offset="720">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="58" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/devices.html.slim">
+    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150417123358_add_user_id_adresss.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44802344" vertical-offset="0" max-vertical-offset="738">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026354318" vertical-offset="0" max-vertical-offset="738">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/address_new.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482" vertical-offset="0" max-vertical-offset="696">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/new.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/devices_new.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5948276" vertical-offset="0" max-vertical-offset="696">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/imports/_form.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/assets/stylesheets/bootstrap_override.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42921013" vertical-offset="0" max-vertical-offset="671">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/layouts/admin.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.296297" vertical-offset="3727" max-vertical-offset="5076">
-          <caret line="248" column="90" selection-start-line="248" selection-start-column="90" selection-end-line="248" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/imports_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="856" max-vertical-offset="2214">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/address.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19917013" vertical-offset="0" max-vertical-offset="723">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/import.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3116883" vertical-offset="918" max-vertical-offset="3798">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2913617" vertical-offset="0" max-vertical-offset="1062">
-          <caret line="49" column="74" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_form.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2532943" vertical-offset="224" max-vertical-offset="1332">
-          <caret line="60" column="93" selection-start-line="27" selection-start-column="8" selection-end-line="60" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42323652" vertical-offset="0" max-vertical-offset="882">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/recall.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10730253" vertical-offset="0" max-vertical-offset="671">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150421123245_add_recall_count_inspection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051575933">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/lib/tasks/report.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5943662">
+          <caret line="78" column="61" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/fop_processor/sample-copy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7261411">
+          <caret line="455" column="21" selection-start-line="455" selection-start-column="13" selection-end-line="455" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/contractors/_addresses.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10344828">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/new.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.666667">
+          <caret line="22" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_actions.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/list_options/_form.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/helpers/inspections_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_recall_form.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_inspection_sub_forms.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_inspection_sub_form_fields_grid.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/railsprojects/boca/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2268">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="88" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/device.rb">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_inspection_sub_form_deficiency.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="18" />
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_inspection_sub_form_fields.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37894738">
+          <caret line="14" column="113" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/re_dispatch.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54310346">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_redispach_form.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20689656">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/repeat.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10344828">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/inspection.rb">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_repeat_form.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/inspections_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="24" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_basic_info_form.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5948276">
+          <caret line="23" column="193" selection-start-line="23" selection-start-column="193" selection-end-line="23" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_form.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18103448">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/_review.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.422414">
+          <caret line="171" column="40" selection-start-line="170" selection-start-column="4" selection-end-line="171" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/inspections/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/assets/javascripts/inspection.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6465517">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/inspection_sub_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.099585064">
+          <caret line="4" column="119" selection-start-line="4" selection-start-column="119" selection-end-line="4" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/sub_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.373444">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/sub_form_fields/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8189655">
+          <caret line="54" column="26" selection-start-line="29" selection-start-column="10" selection-end-line="54" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/sub_forms/show.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7155172">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/sub_forms/_fields_list.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33620688">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/contractors/show.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2672414">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20809248">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/concerns/notifyable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/railsprojects/boca/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1512">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="42" />
+        <state vertical-scroll-proportion="-7.419355">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/lib/fast_field/fast_field_dispatch.rb">
+    <entry file="file://$USER_HOME$/railsprojects/boca/app/models/inspection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5029412" vertical-offset="0" max-vertical-offset="2250">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.10404624">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/subjects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30635837">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/inspections_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/subject.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150129070944_add_user_type_column_in_user.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150127083723_add_devise_to_models.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/subjects/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/activerecord-4.1.4/lib/active_record/connection_adapters/abstract/schema_statements.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3328467" vertical-offset="6450" max-vertical-offset="15534">
-          <caret line="371" column="10" selection-start-line="371" selection-start-column="10" selection-end-line="371" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150127124610_create_inspections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150203083022_add_fields_inspections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150203150754_create_inspection_collobrators.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150204112247_add_dispatch_related_fields.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052554745" vertical-offset="0" max-vertical-offset="685">
-          <caret line="2" column="70" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/db/migrate/20150209145711_add_merge_mobile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049792532" vertical-offset="0" max-vertical-offset="723">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8433382" vertical-offset="54" max-vertical-offset="864">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/users/_form.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.62963" vertical-offset="163" max-vertical-offset="1008">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/views/site/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7092">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data_list/data_list_builder.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025352113" vertical-offset="0" max-vertical-offset="1152">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0668693" vertical-offset="566" max-vertical-offset="1224">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data_list_table/data_list_table_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76535434" vertical-offset="360" max-vertical-offset="2412">
-          <caret line="47" column="51" selection-start-line="46" selection-start-column="12" selection-end-line="47" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data_list/data_list_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data_list_table/data_list_table_builder.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21176471" vertical-offset="0" max-vertical-offset="2916">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/app/controllers/site_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2718">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/railsprojects/boca/lib/fast_field.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63380283" vertical-offset="1458" max-vertical-offset="2268">
-          <caret line="106" column="15" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.82758623">
+          <caret line="32" column="85" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

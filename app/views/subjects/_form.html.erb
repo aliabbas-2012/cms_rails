@@ -20,8 +20,19 @@
 
     <%= f.input :is_visible, as: :boolean %>
     <div class="clear"></div>
+
+    <div id="custom_fields">
+      <%= f.simple_fields_for :custom_fields do |f| %>
+          <%= f.input :author, :input_html => { :value => @subject.custom_fields['author'] } %>
+      <% end %>
+
+      <div class="clear"></div>
+
+    </div>
+    <div class="clear"></div>
     <h3>Pages</h3>
     <div id="pages">
+
       <%= f.simple_fields_for :pages do |e| %>
           <%= render 'page_fields', f: e %>
       <% end %>
@@ -30,6 +41,7 @@
         <%= link_to_add_association 'add page', f, :pages %>
       </div>
     </div>
+
 
 
     <div class="actions">

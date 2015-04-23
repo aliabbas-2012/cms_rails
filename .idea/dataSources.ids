@@ -27,4 +27,10 @@
   <data-source source="LOCAL" name="Rails boca: production" uuid="9ce22080-23f6-498a-911b-ada8ee9f5572">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails boca: test" uuid="de5cb493-f753-4b8a-8e7f-bb9f0b2d0a66">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails boca: staging" uuid="44714a52-fb91-4969-a62f-b7311f8d5a69">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

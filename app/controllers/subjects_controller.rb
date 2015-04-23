@@ -94,6 +94,18 @@ class SubjectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def subject_params
-      params[:subject].permit(:name, :description,:image, :is_visible,pages_attributes: [:id,:name,:permalink, :body, :is_visible, :_destroy])
+
+      params[:subject].permit(:name, :description,:image,:is_visible,permit_hstore_params(:custom_fields, params[:subject][:custom_fields]),pages_attributes: [:id,:name,:permalink, :body, :is_visible, :_destroy])
     end
+
+  def permit_hstore_params(key, hstore_params)
+    keys = hstore_params.try(:keys)
+
+    # Return key if params are empty,
+    # this allows the hstore key to be removed.
+    return key if keys.blank?
+
+    # Otherwise, return the keys to be whitelisted
+    { key => keys }
+  end
 end

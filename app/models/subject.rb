@@ -2,6 +2,9 @@ class Subject < ActiveRecord::Base
   has_many :pages
   attr_reader :visibility
   accepts_nested_attributes_for :pages, :reject_if => :all_blank, :allow_destroy => true
+
+  store_accessor :custom_fields
+
   #mount the library
   mount_uploader :image, AvatarUploader
 

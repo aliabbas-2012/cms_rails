@@ -11,10 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141224083227) do
+ActiveRecord::Schema.define(version: 20150416084039) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "hstore"
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -79,13 +80,14 @@ ActiveRecord::Schema.define(version: 20141224083227) do
   add_index "sections", ["page_id"], name: "index_sections_on_page_id", using: :btree
 
   create_table "subjects", force: true do |t|
-    t.string   "name",        limit: 50,                 null: false
+    t.string   "name",          limit: 50,                 null: false
     t.text     "description"
     t.integer  "position"
-    t.boolean  "is_visible",             default: false
+    t.boolean  "is_visible",               default: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "image"
+    t.hstore   "custom_fields"
   end
 
   create_table "test_boot_straps", force: true do |t|
