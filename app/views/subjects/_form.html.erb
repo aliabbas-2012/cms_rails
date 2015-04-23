@@ -23,7 +23,7 @@
 
     <div id="custom_fields">
       <%= f.simple_fields_for :custom_fields do |f| %>
-          <%= f.input :author, :input_html => { :value => @subject.custom_fields['author'] } %>
+          <%= f.input :author, :input_html => { :value => !@subject.custom_fields.nil? ? @subject.custom_fields['author'] :"" } %>
       <% end %>
 
       <div class="clear"></div>
